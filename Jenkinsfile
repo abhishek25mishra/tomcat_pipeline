@@ -32,7 +32,7 @@ pipeline {
          steps {
         
             // To run Maven on a Windows agent, use
-           bat label: '', script: 'copy /Y target\\satyam-1.0.war D:\Devops\apache-tomcat-9.0.41-windows-x64\apache-tomcat-9.0.41\webapps'
+           bat label: '', script: 'copy /Y target\\satyam-1.0.war D:\\Devops\\apache-tomcat-9.0.41-windows-x64\\apache-tomcat-9.0.41\\webapps'
          }
 
       }
